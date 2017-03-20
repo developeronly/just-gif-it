@@ -14,7 +14,12 @@ hs_err_pid*
 #all other
 .idea/
 /target
-just-gif-it.iml
+*.iml
 mvnw
 mvnw.cmd
 .mvn/
+
+.DS_Store
+*.iml
+node_modules
+public
