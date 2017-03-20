@@ -1,0 +1,11 @@
+debug: true
+
+multipart:
+  location: ${java.io.tmpdir}
+  max-file-size: 50MB
+  max-request-size: 50MB
+
+spring:
+  mvc:
+    favicon:
+      enabled: false
