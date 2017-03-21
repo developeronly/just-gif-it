@@ -9,3 +9,8 @@ spring:
   mvc:
     favicon:
       enabled: false
+
+com:
+  example:
+    optimize: true
+    gif-location: ${java.io.tmpdir}/gif
